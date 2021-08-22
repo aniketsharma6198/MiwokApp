@@ -41,6 +41,7 @@ public class NumbersActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Word word = words.get(position);
+                Log.v("NumbersActivity", "Current word: " + word);
                 mAudioPlayer = MediaPlayer.create(getApplicationContext(), word.getAudioResourceId());
                 mAudioPlayer.start();
             }
