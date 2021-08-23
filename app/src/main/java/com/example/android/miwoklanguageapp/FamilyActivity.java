@@ -64,4 +64,10 @@ public class FamilyActivity extends AppCompatActivity {
             mAudioPlayer = null;
         }
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        releaseMediaPLayer();
+    }
 }
