@@ -14,8 +14,8 @@
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
-        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@id/image_view"
         android:orientation="vertical"
@@ -45,12 +45,11 @@
     </LinearLayout>
 
     <ImageView
+        android:src="@drawable/baseline_play_arrow_white_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_marginRight="16dp"
-        android:src="@drawable/baseline_play_arrow_white_24" />
-
+        android:layout_marginRight="16dp" />
 
 </RelativeLayout>
